@@ -31,6 +31,7 @@ public class MainActivity extends AppCompatActivity {
                     WindowManager.LayoutParams params = new WindowManager.LayoutParams();
                     params.width = 150;
                     params.height = 150;
+                    params.x = 100;
                     params.format = PixelFormat.RGBA_8888;
                     params.gravity = Gravity.START;
                     params.flags = FLAG_NOT_FOCUSABLE;
